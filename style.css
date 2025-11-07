@@ -1,9 +1,32 @@
-body{
-
-    background-color: #1a1a1a !important;
+*{
+    background-color: #1a1a1a;
+    padding: 0;
+    margin: 0;
+    
 }
 
 #banner{
-    height: 400px;
-    width: 800px;
+    height: 450px;
+    width: 750px;
+}
+li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 20px;
+
+
+}
+ul{
+    display: flex; /* Ativa a propriedade de alinhamento */
+    flex-direction: row; /*coloca os elementos na horizontal*/
+}
+
+li{
+    list-style: none; /*Remove os pontos das listas*/
+}
+
+#logo{
+    height: 100px;
+    width: 100px;
 }
