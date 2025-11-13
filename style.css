@@ -5,9 +5,12 @@
     
 }
 
-#banner{
+.banner{
     height: 450px;
-    width: 750px;
+    width: 850px;
+    background-image: url("./assents/banner.png"); /*ele adiona uma imagem como fundo*/
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 li a{
     text-decoration: none;
@@ -18,15 +21,27 @@ li a{
 
 }
 ul{
-    display: flex; /* Ativa a propriedade de alinhamento */
-    flex-direction: row; /*coloca os elementos na horizontal*/
+    display: flex; 
+    flex-direction: row;
 }
 
 li{
-    list-style: none; /*Remove os pontos das listas*/
+    list-style: none; 
 }
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
 
 #logo{
     height: 100px;
     width: 100px;
+}
+
+.bi{
+    font-size: 30px;
+    color: #4c544c;
 }
