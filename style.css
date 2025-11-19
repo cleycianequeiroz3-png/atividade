@@ -11,13 +11,13 @@
     }
     
     .banner{
-    height: 450px;
-    width: 850px;
-    background-image: url("./assents/Banner.png"); /*ele adiciona uma imagem como fundo*/
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    align-items: center;
+        height: 450px;
+        width: 850px;
+        background-image: url("./assents/Banner.png"); /*ele adiciona uma imagem como fundo*/
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
     
     
     }
@@ -112,6 +112,8 @@
     .card-texto{
         display: flex;
         justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
     .card{
         width: 250px;
@@ -121,6 +123,7 @@
     .cores{
         height: 15px;
         width: 15px;
+        border-radius: 100%;
     }
 
     .vermelho{
@@ -131,8 +134,8 @@
         background-color: blue;
     }
 
-    .amarelo{
-        background-color: yellow;
+    .branco{
+        background-color: #ffffff;
     }
 
     .laranja{
@@ -141,4 +144,38 @@
 
     .verde{
         background-color: green;
+    }
+    
+    .roxo{
+        background-color: blueviolet;
+    }
+
+    .rosa{
+        background-color: crimson;
+    }
+
+    .cinza{
+        background-color: #333333;
+    }
+
+    .bege{
+        background-color: darksalmon;
+    }
+
+    .verde{
+        background-color: chartreuse;
+    }
+
+    .caixa-cores{
+        display: flex;
+        flex-direction: row;
+        padding: 5px;
+    }
+
+    .carousel{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 20px;
     }
